@@ -12,12 +12,15 @@ var NavBarComponent = function () {
           m("div", { class: "flex justify-between items-center gap-4" }, [
             m(
               "a",
-              { class: "text-gray-500 hover:text-gray-700", href: "#" },
+              { class: "text-gray-500 hover:text-gray-700", href: "/" },
               "Home"
             ),
             m(
               "a",
-              { class: "text-gray-500 hover:text-gray-700", href: "#" },
+              {
+                class: "text-gray-500 hover:text-gray-700",
+                href: "#!/another",
+              },
               "About"
             ),
             m(
