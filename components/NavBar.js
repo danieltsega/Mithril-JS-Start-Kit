@@ -27,7 +27,7 @@ var NavBarComponent = function () {
             ),
           ]),
           m(Button, {
-            class: "hover:bg-white hover:border-black hover:text-black",
+            class: "",
           }),
         ]
       );
