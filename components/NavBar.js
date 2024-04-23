@@ -1,4 +1,5 @@
 var m = require("mithril");
+var Button = require("./ButtonComp");
 
 var NavBarComponent = function () {
   return {
@@ -25,11 +26,9 @@ var NavBarComponent = function () {
               "Contact"
             ),
           ]),
-          m(
-            "button",
-            { class: "text-white bg-black px-6 py-2 text-lg font-bold" },
-            "JOIN"
-          ),
+          m(Button, {
+            class: "hover:bg-white hover:border-black hover:text-black",
+          }),
         ]
       );
     },
