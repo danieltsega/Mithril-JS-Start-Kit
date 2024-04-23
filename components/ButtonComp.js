@@ -5,7 +5,10 @@ var Button = function () {
     view: function () {
       return m(
         "button",
-        { class: "bg-black text-white px-8 py-2 font-bold text-lg uppercase" },
+        {
+          class:
+            "bg-black text-white px-8 py-2 font-bold text-lg hover:bg-inherit hover:border-2 hover:border-black hover:text-black uppercase",
+        },
         "join"
       );
     },
